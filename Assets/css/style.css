@@ -1,0 +1,171 @@
+body{
+font-family: 'Indie Flower', ;
+text-align: center;
+color: #000f08;
+background-color: #F5F6CE;
+margin: 0;
+
+}
+
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+    
+h1 {
+    font-weight: 800;
+    font-size: 3.75em;
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.75em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+.subtitulo, h4, h5 {
+    font-weight: 400;
+}
+  
+#ubicacion {
+    width: 100%;
+    
+    
+}
+
+#ubicacion img {
+    
+    width: 30%;
+    height: 30%;
+  
+}
+
+#ubicacion h2 {
+    margin: 1em auto;
+}
+    
+.sweet-pink h3, .sweet-pink h5 {
+    margin-bottom: 0.5em;
+}
+
+#servicios h2 {
+    margin-bottom: 1em;
+}
+
+#servicios h3 {
+    margin: 1em auto;
+}
+
+.serv {
+    display: inline-block;
+
+}
+
+
+.oscuro {
+    background: #E633FF;
+    color: #ffffff;
+}
+
+.oscuro a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.sweet-pink{
+    text-align: left;
+    background: #FC33FF;
+    color: #ffffff;
+    
+}
+
+.hero-section {
+    text-align: center;
+    background-image: url('../img/fondo3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 0.125em 0.25em 0.125em #707070;
+    padding: 6.25rem 3.125rem;
+
+}
+
+section, footer {
+    margin-top: 5%;
+}
+
+footer {
+    padding: 3%;
+}
+
+.centrado {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.nosotros-somos, .nosotros-texto, .masaje {
+    display: inline-block;
+}
+
+.nosotros-somos {
+    width: 20%;
+    vertical-align: middle; 
+}
+  
+.nosotros-texto {
+    width: 72.5%;
+    vertical-align: middle; 
+    padding-left: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.nosotros-texto p {
+    text-align: justify;
+}
+
+.masaje {
+    width: 30%;
+
+}
+  
+.masaje img {
+    width: 75%;
+    height: 150px;
+}
+    
+nav {
+    text-align: left;
+    padding: 1.25rem 4rem;
+    position: fixed;
+    width: 100vw;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 1em;
+    vertical-align: middle;
+}
+
+
+
+footer i {
+    margin: 0 0.25em 0.5em 0.25em;
+}
